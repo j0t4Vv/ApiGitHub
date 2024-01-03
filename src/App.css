@@ -1,0 +1,128 @@
+.App{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.App h1{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.search{
+  background-color: #2b3566;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-container{
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-container input,
+.search-container button{
+  padding: 0.6rem;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+ 
+}
+
+.search-container input{
+  width: 100px;
+  flex-grow: 1;
+  max-width: 100%;
+  color: #2b3566;
+  
+}
+
+.search-container button{
+  background-color: black;
+  cursor: pointer;
+  width: 100px;
+  flex-grow: 0;
+}
+
+.User{
+  background-color: #2b3566;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.User h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-break: break-all;
+  margin-bottom: 1rem;
+}
+
+.name{
+  margin-bottom: 1rem;
+}
+
+img{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid #644aff;
+}
+
+.stats{
+  display: flex;
+
+}
+
+.stats div{
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.stats div:first-child{
+  border-right: 1px solid #9da5d1;
+}
+
+.repos{
+  background-color: #2b3566;
+  padding: 2rem;
+  border-radius: 1rem;
+  align-items: center;
+  gap: 1.2rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.repos h2{
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.repo{
+  background-color: #644aff;
+  padding: 1rem;
+  border-radius: 1rem;
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 100%;
+  min-width: 100px;
+  margin-bottom: 1rem;
+  word-break: break-all;
+}
